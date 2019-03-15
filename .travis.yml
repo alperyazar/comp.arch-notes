@@ -10,3 +10,4 @@ script:
   - rm -rf _build
   - sphinx-build -W -a -n -q -T -b html . _build
   - rm -rf _build
+  
