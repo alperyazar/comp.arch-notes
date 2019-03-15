@@ -1,8 +1,10 @@
 # comp.arch Notes
 
-[![Documentation Status](https://readthedocs.org/projects/comparch-notes/badge/?version=master)](https://comparch-notes.readthedocs.io/en/master/?badge=master)
+[![Documentation Status](https://readthedocs.org/projects/comparch-notes/badge/?version=latest)](https://comparch-notes.readthedocs.io/en/latest/?badge=latest)
 
 Welcome to source code repository of notes on computer architecture.
+
+Added for TEST!
 
 This is a collection of mostly my personal notes.
 Notes are (will be) mixture of:
@@ -25,7 +27,8 @@ your comments and corrections.
 ## Reading Notes
 
 Notes are compiled automatically by readthedocs.org and hosted on
-XXXXX
+http://comparch-notes.readthedocs.io/ OR
+http://comparch-notes.rtfd.io/
 
 ## File Organization
 
