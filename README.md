@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.com/alperyazar/comp.arch-notes.svg?branch=master)](https://travis-ci.com/alperyazar/comp.arch-notes)
 [![Documentation Status](https://readthedocs.org/projects/comparch-notes/badge/?version=latest)](https://comparch-notes.readthedocs.io/en/latest/?badge=latest)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 Welcome to source code repository of notes on computer architecture.
 
