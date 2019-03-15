@@ -25,9 +25,9 @@ copyright = '2019, Alper YAZAR and CONTRIBUTORS'
 author = 'Alper YAZAR and CONTRIBUTORS'
 
 # The short X.Y version
-version = ''
+version = 'beta'
 # The full version, including alpha/beta/rc tags
-release = ''
+release = 'beta'
 
 
 # -- General configuration ---------------------------------------------------
@@ -83,7 +83,7 @@ pygments_style = None
 if on_rtd:
     html_theme = 'default'
 else:
-    html_theme = 'classic'
+    html_theme = 'default'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -105,6 +105,10 @@ html_static_path = ['_static']
 # 'searchbox.html']``.
 #
 # html_sidebars = {}
+
+# Disable copy of source code with document
+
+html_copy_source = False
 
 
 # -- Options for HTMLHelp output ---------------------------------------------
@@ -188,3 +192,15 @@ epub_exclude_files = ['search.html']
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
+
+# Misc
+show_authors = True
+nitpicky = True
+
+# Substitutions
+
+rst_prolog = """
+.. |subs_src_page| replace:: https://github.com/alperyazar/comp.arch-notes
+.. |subs_src_page_contributing| replace:: https://github.com/alperyazar/comp.arch-notes/blob/master/CONTRIBUTING.md
+.. |subs_src_page_issues| replace:: https://github.com/alperyazar/comp.arch-notes/issues
+"""
