@@ -1,5 +1,7 @@
 # comp.arch Notes
 
+[![Documentation Status](https://readthedocs.org/projects/comparch-notes/badge/?version=master)](https://comparch-notes.readthedocs.io/en/master/?badge=master)
+
 Welcome to source code repository of notes on computer architecture.
 
 This is a collection of mostly my personal notes.
