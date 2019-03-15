@@ -1,5 +1,6 @@
 # comp.arch Notes
 
+[![Build Status](https://travis-ci.com/alperyazar/comp.arch-notes.svg?branch=master)](https://travis-ci.com/alperyazar/comp.arch-notes)
 [![Documentation Status](https://readthedocs.org/projects/comparch-notes/badge/?version=latest)](https://comparch-notes.readthedocs.io/en/latest/?badge=latest)
 
 Welcome to source code repository of notes on computer architecture.
