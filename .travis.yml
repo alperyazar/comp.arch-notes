@@ -8,5 +8,5 @@ before_script:
 script:
   - make html
   - rm -rf _build
-  - sphinx-build -W -b html . _build
+  - sphinx-build -W -a -n -q -T -b html . _build
   - rm -rf _build
