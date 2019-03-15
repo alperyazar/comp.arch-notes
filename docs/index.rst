@@ -80,7 +80,3 @@ Pages
 
 .. [#] **comp.arch** is a Usenet group on computer architecture.
        I choose this name as the short code.
-
-Create intended error:
-
-:ref:`non_exist_page`. 
