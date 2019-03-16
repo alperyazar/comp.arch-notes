@@ -10,13 +10,13 @@ Info
 Reading
 -------
 
-* `In-Datacenter Performance Analysis of a Tensor Processing Unit <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?media=indcperf.pdf>`_
-* Chapter 1 in Harris & Harris
-* Chapter 1-2 in Patt and Patel
+* [jouppi2017datacenter]_
+* Chapter 1 in [harris2012digital]_
+* Chapter 1-2 in [patt2005introduction]_
 * `Binary Numbers <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?media=reading-week1_binarynumbers.pdf>`_
-* `R.W. Hamming, "You and Your Research," Transcription of the Bell Communications Research Colloquium Seminar, 1986 <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?media=youandyourresearch.pdf>`_
-* `R.W. Hamming, "Numerical Methods for Scientists and Engineers,” 1962 <http://alvand.basu.ac.ir/~dezfoulian/files/Numericals/Numerical.Methods.For.Scientists.And.Engineers_2ed_Hamming_0486652416.pdf>`_
-* `R.W. Hamming, "Error Detecting and Error Correcting Codes," Bell System Technical Journal, 1950 <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?media=bstj29-2-147.pdf>`_
+* [hamming1986you]_
+* [hamming2012numerical]_
+* [hamming1950error]_
 
 Reading Notes
 ^^^^^^^^^^^^^
@@ -25,6 +25,10 @@ Binary Numbers
 """"""""""""""
 * 1's complement toplarken carry'i LSB olarak eklemek sorunu çözüyorumuş.
   Bu açıdan düşünmemiştim.
+
+.. todo::
+
+    İngilizceye çevir
 
 Lecture Minutes
 ---------------
@@ -79,5 +83,4 @@ Glossary
     ISAA
         iki AA li.
 
-.. sectionauthor:: Alper Yazar <https://www.alperyazar.com>
-.. sectionauthor:: Alper Yazmaz
+.. sectionauthor:: Alper Yazar

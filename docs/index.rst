@@ -69,6 +69,7 @@ Pages
 * :ref:`contributors_page`
 * :ref:`copyright_page`
 * :ref:`license_page`
+* :ref:`todos_page`
 * :ref:`Glossary Index <genindex>`
 
   * :ref:`Miscellaneous Terms <misc_glossary_page>`
