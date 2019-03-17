@@ -2,7 +2,15 @@
 
 [![Build Status](https://travis-ci.com/alperyazar/comp.arch-notes.svg?branch=master)](https://travis-ci.com/alperyazar/comp.arch-notes)
 [![Documentation Status](https://readthedocs.org/projects/comparch-notes/badge/?version=latest)](https://comparch-notes.readthedocs.io/en/latest/?badge=latest)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+![Website](https://img.shields.io/website/https/comparch-notes.readthedocs.io.svg)
+
+![GitHub License](https://img.shields.io/github/license/alperyazar/comp.arch-notes.svg?style=flat)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
+
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/alperyazar/comp.arch-notes.svg)
+[![Percentage of issues still open](https://isitmaintained.com/badge/open/alperyazar/comp.arch-notes.svg)](https://isitmaintained.com/project/alperyazar/comp.arch-notes "Percentage of issues still open")
+[![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/alperyazar/comp.arch-notes.svg)](https://isitmaintained.com/project/alperyazar/comp.arch-notes "Average time to resolve an issue")
+![GitHub repo size in bytes](https://img.shields.io/github/repo-size/alperyazar/comp.arch-notes.svg)
 
 Welcome to source code repository of notes on computer architecture.
 
@@ -26,9 +34,11 @@ your comments and corrections.
 
 ## Reading Notes
 
+![Website](https://img.shields.io/website/https/comparch-notes.readthedocs.io.svg)
+
 Notes are compiled automatically by readthedocs.org and hosted on
-http://comparch-notes.readthedocs.io/ OR
-http://comparch-notes.rtfd.io/
+https://comparch-notes.readthedocs.io/ OR
+https://comparch-notes.rtfd.io/
 
 ## File Organization
 
@@ -70,6 +80,8 @@ Sphinx documentation.
 
 ## Contributing
 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
+
 I will be happy if you help me to make these notes better. If you are not
 familiar with reStructuredText, compiling a Sphinx project
 git pull requests or Github then you can create `New issue` on `Issues` page to
@@ -79,6 +91,8 @@ If you can modify the source files and create pull request,
 then please read `CONTRIBUTING.md` page.
 
 ## License
+
+![GitHub License](https://img.shields.io/github/license/alperyazar/comp.arch-notes.svg?style=flat)
 
 SPDX-License-Identifier:CC-BY-SA-4.0
 

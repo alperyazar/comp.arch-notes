@@ -1,6 +1,6 @@
 # Contributing
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 
 First of all, I would like to thank you for taking the time to contribute.
 Since this is a very fresh project now, contribution process flow is not
