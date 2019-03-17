@@ -83,4 +83,4 @@ then please read `CONTRIBUTING.md` page.
 SPDX-License-Identifier:CC-BY-SA-4.0
 
 This project is licensed under CC-BY-SA-4.0 if otherwise stated.
-Check `LICENSE.md` for further information.
+Check `LICENSE` for further information.
