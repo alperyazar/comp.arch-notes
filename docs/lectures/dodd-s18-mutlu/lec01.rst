@@ -13,7 +13,7 @@ Reading
 * [jouppi2017datacenter]_
 * Chapter 1 in [harris2012digital]_
 * Chapter 1-2 in [patt2005introduction]_
-* `Binary Numbers <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?media=reading-week1_binarynumbers.pdf>`_
+* `Binary Numbers <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?media=reading-week1_binarynumbers.pdf>`_ (`Done`)
 * [hamming1986you]_
 * [hamming2012numerical]_
 * [hamming1950error]_
@@ -23,64 +23,82 @@ Reading Notes
 
 Binary Numbers
 """"""""""""""
-* 1's complement toplarken carry'i LSB olarak eklemek sorunu çözüyorumuş.
-  Bu açıdan düşünmemiştim.
+
+Basic stuff..
 
 .. todo::
 
-    İngilizceye çevir
+    Expand notes on number representation, possibly on separate page.
 
 Lecture Minutes
 ---------------
 
-.. index::
-    principled design
-    ISA
-
 * **29:00** Importance of principled design
-* **40:00** "architecture based upon principle not upon precedent" (örnek, benzeri olan, geçmiş örnek). Mesela spectra ve meltdown'da precedent hızlı işlemci yapmaktı ama belki security principle'ı ile tekrar düşünülmeliydi.
-* **44:00** zamanla teknoloji değişse de temel teknikler ve prensipler benzer kalabiliyor.
-* **48:00** konu dışı olmasına rağmen örnek olarak **sytolic array**\ lerden bahsediyor. Bir parallel processing mimarisi sanırım. Google tensor tarafından kullanılıyormuş. https://www.geeksforgeeks.org/parallel-processing-systolic-arrays/ Memory BW açısından avantajlıymış.
-* **01:03:00** Electrons → Transistors → Logic Gates → Combinational Logic Circuits → Sequential Logic Circuits (Storage Elements and Memory) → … → Cores → Caches → Interconnect → Memories → …
-* **01:13:00** The transformation hierarcy
 
-.. image:: images/l01-layers.png
-   :align: center
+* **40:00** "architecture based upon principle not upon precedent"
+  Precedent means examples from past. Design should have some principles and
+  shouldn't build blindly on past or wide spread approaches. For example, let's
+  consider Spectre and Meltdown. In those cases, precedent is building a fast
+  processor. But designer might have considered security principle to avoid
+  this kind of flaws.
 
-* **01:15:00** Algorithm is step-by-step procedure that is guarenteed to terminate where each step is precisely stated and can be carried out by a computer
+* **44:00** Although technology changes over time, fundamental techniques and
+  principles may remain similar.
 
-.. image:: images/l01-isa.png
-   :align: center
+* **48:00** Mini talk about :term:`systolic array` although it is kind of
+  out of context.
 
-.. _glossary-isa-first-defined:
+* **01:03:00** Electrons → Transistors → Logic Gates →
+  Combinational Logic Circuits →
+  Sequential Logic Circuits (Storage Elements and Memory) → … →
+  Cores → Caches → Interconnect → Memories → …
 
-**ISA**: Instruction Set Architecture, contract between HW and SW. Pgrammers assumption about HW.
-**Microarchitecture**: An implementation of the ISA
+* **01:13:00** The transformation hierarchy is shown below.
+
+  .. figure:: images/l01-layers.png
+     :align: center
+
+     *Taken directly from the lecture notes. © belongs to Prof. Mutlu*
+
+* **01:15:00** :term:`algorithm` is defined.
+
+  .. figure:: images/l01-isa.png
+     :align: center
+
+     *Taken directly from the lecture notes. © belongs to Prof. Mutlu*
+
+  See :term:`ISA` and :term:`microarchitecture` definitions.
 
 * **01:24:00** VAX architecture, 3D array checking at hardware (?)
 
-:term:`ISA` is sfdf fgfg
+  .. todo::
 
-.. note::
-    Test hebele
-
-.. warning::
-    Test
-
+    What are they? 3D array checking?
 
 Glossary
 --------
 
 .. glossary::
 
-    microarchitecture
-        **Instruction Set Architecture**. It is a contract between Hardware and Software.
-        It is programmers assumption about hardware. First defined :ref:`here<glossary-isa-first-defined>`.
+    algorithm
+        Algorithm is step-by-step procedure that is guaranteed to
+        terminate where each step is precisely stated and can be carried out
+        by a computer
 
     ISA
-        Bu da iyi bir sey.
+        **Instruction Set Architecture**. It is a contract between Hardware
+        and Software. It is programmers assumption about hardware.
 
-    ISAA
-        iki AA li.
+    microarchitecture
+        An implementation of the :term:`ISA`.
+
+    systolic array
+        It looks like a type of parallel processing architecture. It is used
+        by Google Tensor. It is a memory bandwidth efficient architecture.
+        https://www.geeksforgeeks.org/parallel-processing-systolic-arrays/
+
+        .. todo::
+
+            I may not have fully understood.
 
 .. sectionauthor:: Alper Yazar
