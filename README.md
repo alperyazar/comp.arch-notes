@@ -2,15 +2,15 @@
 
 [![Build Status](https://travis-ci.com/alperyazar/comp.arch-notes.svg?branch=master)](https://travis-ci.com/alperyazar/comp.arch-notes)
 [![Documentation Status](https://readthedocs.org/projects/comparch-notes/badge/?version=latest)](https://comparch-notes.readthedocs.io/en/latest/?badge=latest)
-![Website](https://img.shields.io/website/https/comparch-notes.readthedocs.io.svg)
+[![Website](https://img.shields.io/website/https/comparch-notes.readthedocs.io.svg)](https://comparch-notes.readthedocs.io)
 
-![GitHub License](https://img.shields.io/github/license/alperyazar/comp.arch-notes.svg?style=flat)
+[![GitHub License](https://img.shields.io/github/license/alperyazar/comp.arch-notes.svg?style=flat)](https://creativecommons.org/licenses/by-sa/4.0/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat)](http://makeapullrequest.com)
 
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/alperyazar/comp.arch-notes.svg)
-[![Percentage of issues still open](https://isitmaintained.com/badge/open/alperyazar/comp.arch-notes.svg)](https://isitmaintained.com/project/alperyazar/comp.arch-notes "Percentage of issues still open")
-[![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/alperyazar/comp.arch-notes.svg)](https://isitmaintained.com/project/alperyazar/comp.arch-notes "Average time to resolve an issue")
-![GitHub repo size in bytes](https://img.shields.io/github/repo-size/alperyazar/comp.arch-notes.svg)
+[![GitHub commit activity](https://img.shields.io/github/commit-activity/m/alperyazar/comp.arch-notes.svg)](https://github.com/alperyazar/comp.arch-notes/graphs/commit-activity)
+[![Percentage of issues still open](https://isitmaintained.com/badge/open/alperyazar/comp.arch-notes.svg)](https://isitmaintained.com/project/alperyazar/comp.arch-notes)
+[![Average time to resolve an issue](https://isitmaintained.com/badge/resolution/alperyazar/comp.arch-notes.svg)](https://isitmaintained.com/project/alperyazar/comp.arch-notes)
+[![GitHub repo size in bytes](https://img.shields.io/github/repo-size/alperyazar/comp.arch-notes.svg)](https://github.com/alperyazar/comp.arch-notes)
 
 Welcome to source code repository of notes on computer architecture.
 
