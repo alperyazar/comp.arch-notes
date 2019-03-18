@@ -27,4 +27,4 @@ Conference
 Other
 -----
 
-.. [hamming1986you] Hamming, R., & Kaiser, J. F. (1986). You and your research. Transcription of the Bell Communications Research Colloquium Seminar. University of Virginia, 7. `Link <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?media=youandyourresearch.pdf>`__
+.. [hamming1986you] Hamming, R., & Kaiser, J. F. (1986). You and your research. Transcription of the Bell Communications Research Colloquium Seminar. University of Virginia, 7. `Link <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?media=youandyourresearch.pdf>`__ (`Done`)
