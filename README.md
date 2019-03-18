@@ -34,7 +34,7 @@ your comments and corrections.
 
 ## Reading Notes
 
-![Website](https://img.shields.io/website/https/comparch-notes.readthedocs.io.svg)
+[![Website](https://img.shields.io/website/https/comparch-notes.readthedocs.io.svg)](https://comparch-notes.readthedocs.io)
 
 Notes are compiled automatically by readthedocs.org and hosted on
 https://comparch-notes.readthedocs.io/ OR
@@ -92,7 +92,7 @@ then please read `CONTRIBUTING.md` page.
 
 ## License
 
-![GitHub License](https://img.shields.io/github/license/alperyazar/comp.arch-notes.svg?style=flat)
+[![GitHub License](https://img.shields.io/github/license/alperyazar/comp.arch-notes.svg?style=flat)](https://creativecommons.org/licenses/by-sa/4.0/)
 
 SPDX-License-Identifier:CC-BY-SA-4.0
 
