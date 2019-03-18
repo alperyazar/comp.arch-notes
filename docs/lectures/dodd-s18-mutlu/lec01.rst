@@ -4,8 +4,8 @@ Lecture 01 - Introduction and Basics
 Info
 ----
 
-* `Video Link <http://www.youtube.com/watch?v=PMJxcArLU1E>`_
-* `Lecture Slides <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?media=digitaldesign-s18-lecture1-intro.pdf>`_
+* `Video Link <http://www.youtube.com/watch?v=PMJxcArLU1E>`__
+* `Lecture Slides <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?media=digitaldesign-s18-lecture1-intro.pdf>`__
 
 Reading
 -------
@@ -13,7 +13,7 @@ Reading
 * [jouppi2017datacenter]_
 * Chapter 1 in [harris2012digital]_
 * Chapter 1-2 in [patt2005introduction]_
-* `Binary Numbers <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?media=reading-week1_binarynumbers.pdf>`_ (`Done`)
+* `Binary Numbers <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?media=reading-week1_binarynumbers.pdf>`__ (`Done`)
 * [hamming1986you]_
 * [hamming2012numerical]_
 * [hamming1950error]_
