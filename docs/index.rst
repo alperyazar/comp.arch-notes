@@ -50,8 +50,6 @@ Sincerely,
 
 Alper YAZAR
 
-|subs_src_page|
-
 Content
 =======
 
