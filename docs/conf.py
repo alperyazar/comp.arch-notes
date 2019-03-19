@@ -25,9 +25,9 @@ copyright = '2019, Alper YAZAR and CONTRIBUTORS'
 author = 'Alper YAZAR and CONTRIBUTORS'
 
 # The short X.Y version
-version = 'beta'
+version = ''
 # The full version, including alpha/beta/rc tags
-release = 'beta'
+release = ''
 
 
 # -- General configuration ---------------------------------------------------
