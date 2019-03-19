@@ -11,6 +11,16 @@ comp.arch Notes
     and learn tools like Sphinx, Read The Docs, etc. Be prepared for marginal
     changes.
 
+.. image:: https://img.shields.io/github/watchers/alperyazar/comp.arch-notes.svg?style=social
+    :alt: GitHub watchers
+    :target: https://github.com/alperyazar/comp.arch-notes
+.. image:: https://img.shields.io/github/stars/alperyazar/comp.arch-notes.svg?style=social
+    :alt: GitHub stars
+    :target: https://github.com/alperyazar/comp.arch-notes
+.. image:: https://img.shields.io/github/forks/alperyazar/comp.arch-notes.svg?style=social
+    :alt: GitHub forks
+    :target: https://github.com/alperyazar/comp.arch-notes
+
 Welcome to notes on computer architecture! [#]_
 
 You are on the home page of set of public notes. This is a collection of mostly
@@ -76,6 +86,28 @@ Pages
 * :ref:`search`
 
 .. * :ref:`modindex`
+
+Project Statistics
+==================
+
+.. image:: https://img.shields.io/github/repo-size/alperyazar/comp.arch-notes.svg
+    :alt: GitHub repo size in bytes
+.. image:: https://img.shields.io/github/commit-activity/m/alperyazar/comp.arch-notes.svg
+    :alt: GitHub commit activity
+.. image:: https://img.shields.io/github/last-commit/alperyazar/comp.arch-notes/master.svg
+    :alt: GitHub last commit (branch)
+.. image:: https://img.shields.io/github/contributors-anon/alperyazar/comp.arch-notes.svg
+    :alt: GitHub contributors
+.. image:: https://img.shields.io/github/issues-raw/alperyazar/comp.arch-notes.svg
+    :alt: GitHub issues
+.. image:: https://img.shields.io/github/issues-closed-raw/alperyazar/comp.arch-notes.svg
+    :alt: GitHub closed issues
+.. image:: https://isitmaintained.com/badge/resolution/alperyazar/comp.arch-notes.svg
+    :alt: Average time to resolve an issue
+.. image:: https://img.shields.io/github/issues-pr-raw/alperyazar/comp.arch-notes.svg
+    :alt: GitHub pull requests
+.. image:: https://img.shields.io/github/issues-pr-closed-raw/alperyazar/comp.arch-notes.svg
+    :alt: GitHub closed pull requests
 
 .. [#] **comp.arch** is a Usenet group on computer architecture.
        I choose this name as the short code.
