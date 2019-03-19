@@ -27,4 +27,7 @@ Conference
 Other
 -----
 
-.. [hamming1986you] Hamming, R., & Kaiser, J. F. (1986). You and your research. Transcription of the Bell Communications Research Colloquium Seminar. University of Virginia, 7. `Link <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?media=youandyourresearch.pdf>`__ (`Done`)
+.. [hamming1986you] Hamming, R., & Kaiser, J. F. (1986). You and your research. Transcription of the Bell Communications Research Colloquium Seminar. University of Virginia, 7. `Link <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?media=youandyourresearch.pdf>`__
+.. [klaiber2000technology] Klaiber, A. (2000). The technology behind Crusoe processors. Transmeta Technical Brief. `Link <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?media=klaiber_technology_behind_crusoe_processor.pdf>`__
+.. [dehnert2003transmeta] Dehnert, J. C., Grant, B. K., Banning, J. P., Johnson, R., Kistler, T., Klaiber, A., & Mattson, J. (2003, March). The Transmeta Code Morphing™ Software: using speculation, recovery, and adaptive retranslation to address real-life challenges. In Proceedings of the international symposium on Code generation and optimization: feedback-directed and runtime optimization (pp. 15-24). IEEE Computer Society. `Link <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?media=dehnert_transmeta_code_morphing_software.pdf>`__
+.. [horn2018reading] Horn, J. (2018). Reading privileged memory with a side-channel. Project Zero, 3. `Link <https://googleprojectzero.blogspot.com/2018/01/reading-privileged-memory-with-side.html>`__

@@ -14,7 +14,7 @@ Reading
 * Chapter 1 in [harris2012digital]_
 * Chapter 1-2 in [patt2005introduction]_
 * `Binary Numbers <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?media=reading-week1_binarynumbers.pdf>`__ (`Done`)
-* [hamming1986you]_
+* [hamming1986you]_ (`Done`)
 * [hamming2012numerical]_
 * [hamming1950error]_
 
@@ -53,7 +53,8 @@ Lecture Minutes
   Sequential Logic Circuits (Storage Elements and Memory) → … →
   Cores → Caches → Interconnect → Memories → …
 
-* **01:13:00** The transformation hierarchy is shown below.
+* **01:13:00** The transformation hierarchy is shown below. How can we talk
+  with electrons? This is a fundamental question.
 
   .. figure:: images/l01-layers.png
      :align: center
