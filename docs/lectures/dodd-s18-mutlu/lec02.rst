@@ -1,8 +1,7 @@
+.. _lec_dood_s18_lec02_page:
+
 Lecture 02 - Mysteries in Comp Arch
 ===================================
-
-.. warning::
-    Incomplete, stopped at 53:11
 
 Info
 ----
@@ -16,6 +15,12 @@ Reading
 * [klaiber2000technology]_
 * [dehnert2003transmeta]_
 * [horn2018reading]_
+* [kim2014flipping]_
+* [seaborn2015exploiting]_
+* [gruss2016rowhammer]_
+* [van2016drammer]_
+* [lamport1982byzantine]_
+* [mutlu2017rowhammer]_
 
 Reading Notes
 ^^^^^^^^^^^^^
@@ -118,7 +123,55 @@ Lecture Minutes
   https://www.youtube.com/watch?v=syAdX44pokE
   https://www.youtube.com/watch?v=mgAN4w7LH2o
 
-* **52:50** **RowHammer**
+* **52:50** **RowHammer** DRAM Disturbance Error. It is a story of how a simple
+  hardware failure mechanism can create a widespread system security
+  vulnerability. Reading a row in DRAM disturb adjacent rows. It is also
+  possible in SSDs or HDDs, etc. When you want to read a row in memory, you
+  apply high voltage to it. After reading, you apply low voltage. If you
+  repeat this in most DRAM chips you get errors in adjacent rows. Notice that
+  corruption is triggered by only reading adjacent rows. You hammer row by
+  reading.
+
+* **57:30** It is interesting that this flaw is observed chips manufactured
+  after ~2010. More recent chips have higher error rates. This is because
+  physical decrease in distance between rows, similar to Moore's Law.
+
+* **58:15** DRAM cells are too close to each other. Actually they are not
+  completely electrically isolated from each other. Another term is
+  cell-to-cell coupling. Some cells are more vulnerable than other cells.
+  DRAM memory store information as charge. You can drain charge with this
+  attack.
+
+* **1:01:30** Some implementation details about RowHammer, assembly codes.
+
+* **1:03:30** Read [kim2014flipping]_ and [seaborn2015exploiting]_
+
+* **1:04:30** [seaborn2015exploiting]_ gained root access on a Linux system
+  by exploiting RowHammer.
+
+* **1:09:10** [gruss2016rowhammer]_
+
+* **1:09:30** [van2016drammer]_ Hammer and root millions of Androids
+
+* **1:10:00** How can we fix? Better DRAM chips (cost), refresh frequently
+  (power, performance), sophisticated error correction (cost, power), access
+  counter (a method of detecting attack but cost, power, complexity)
+
+* **1:14:00** https://support.apple.com/en-gb/HT204934 is Apple solution to
+  problem. They refresh whole memory more frequently but it will increase
+  power consumption.
+
+* **1:15:25** **PARA**: Probabilistic Adjacent Row Activation is a cheaper
+  solution to RowHammer problem. Key idea: After closing a row, with some
+  probability (probably low value like 0.005) you refresh its neighbors.
+
+* **1:17:45** RowHammer also shows that one should be able to "cross layers"
+  to understand, fix or repeat the problem.
+
+* **1:19:35** These are example of :term:`byzantine failures`. Read
+  [lamport1982byzantine]_
+
+* **1:24:05** [mutlu2017rowhammer]_
 
 Glossary
 --------
@@ -132,6 +185,15 @@ Glossary
     branch prediction
         A way of "guessing" mentioned in :term:`speculative execution`.
 
+    byzantine failures
+        They are characterized by undetected erroneous computation (
+        opposite of fail fast (with an error or no result)). They are "sneaky"
+        errors. "erroneous" can be "malicious" because one can abuse it. They
+        are very difficult to detect and confine. It is a real problem in
+        distributed systems (may be like blockcahin :)). Avoidance is the best
+        solution.
+        [lamport1982byzantine]_
+
     side channel
         A channel through which someone sophisticated can extract information.
 
@@ -142,5 +204,14 @@ Glossary
 
     VLIW
         Very Long Instruction World. A type of architecture.
+
+.. index::
+    double-sided RowHammer
+    IBM Cell Broadband Engine
+    meltdown
+    PARA
+    RowHammer
+    spectre
+    Transmeta
 
 .. sectionauthor:: Alper Yazar

@@ -18,11 +18,16 @@ Journal
 -------
 
 .. [hamming1950error] Hamming, R. W. (1950). Error detecting and error correcting codes. The Bell system technical journal, 29(2), 147-160. `Link <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?media=bstj29-2-147.pdf>`__
+.. [lamport1982byzantine] Lamport, L., Shostak, R., & Pease, M. (1982). The Byzantine generals problem. ACM Transactions on Programming Languages and Systems (TOPLAS), 4(3), 382-401. `Link <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?media=p382-lamport.pdf>`__
 
 Conference
 ----------
 
 .. [jouppi2017datacenter] Jouppi, N. P., Young, C., Patil, N., Patterson, D., Agrawal, G., Bajwa, R., ... & Boyle, R. (2017, June). In-datacenter performance analysis of a tensor processing unit. In 2017 ACM/IEEE 44th Annual International Symposium on Computer Architecture (ISCA) (pp. 1-12). IEEE. `Link <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?media=indcperf.pdf>`__
+.. [gruss2016rowhammer] Gruss, D., Maurice, C., & Mangard, S. (2016, July). Rowhammer. js: A remote software-induced fault attack in javascript. In International Conference on Detection of Intrusions and Malware, and Vulnerability Assessment (pp. 300-321). Springer, Cham. `Link <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?media=10.1007-978-3-319-40667-1_15.pdf>`__
+.. [van2016drammer] Van Der Veen, V., Fratantonio, Y., Lindorfer, M., Gruss, D., Maurice, C., Vigna, G., ... & Giuffrida, C. (2016, October). Drammer: Deterministic rowhammer attacks on mobile platforms. In Proceedings of the 2016 ACM SIGSAC conference on computer and communications security (pp. 1675-1689). ACM. `Link <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?media=p1675-van-der-veen.pdf>`__
+.. [kim2014flipping] Kim, Y., Daly, R., Kim, J., Fallin, C., Lee, J. H., Lee, D., ... & Mutlu, O. (2014, June). Flipping bits in memory without accessing them: An experimental study of DRAM disturbance errors. In ACM SIGARCH Computer Architecture News (Vol. 42, No. 3, pp. 361-372). IEEE Press. `Link <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?tok=4cc56e&media=https%3A%2F%2Fpeople.inf.ethz.ch%2Fomutlu%2Fpub%2Fdram-row-hammer_isca14.pdf>`__
+.. [mutlu2017rowhammer] Mutlu, O. (2017, March). The RowHammer problem and other issues we may face as memory becomes denser. In Proceedings of the Conference on Design, Automation & Test in Europe (pp. 1116-1121). European Design and Automation Association. `Link <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?tok=daa41a&media=https%3A%2F%2Fpeople.inf.ethz.ch%2Fomutlu%2Fpub%2Frowhammer-and-other-memory-issues_date17.pdf>`__
 
 Other
 -----
@@ -31,3 +36,4 @@ Other
 .. [klaiber2000technology] Klaiber, A. (2000). The technology behind Crusoe processors. Transmeta Technical Brief. `Link <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?media=klaiber_technology_behind_crusoe_processor.pdf>`__
 .. [dehnert2003transmeta] Dehnert, J. C., Grant, B. K., Banning, J. P., Johnson, R., Kistler, T., Klaiber, A., & Mattson, J. (2003, March). The Transmeta Code Morphing™ Software: using speculation, recovery, and adaptive retranslation to address real-life challenges. In Proceedings of the international symposium on Code generation and optimization: feedback-directed and runtime optimization (pp. 15-24). IEEE Computer Society. `Link <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?media=dehnert_transmeta_code_morphing_software.pdf>`__
 .. [horn2018reading] Horn, J. (2018). Reading privileged memory with a side-channel. Project Zero, 3. `Link <https://googleprojectzero.blogspot.com/2018/01/reading-privileged-memory-with-side.html>`__
+.. [seaborn2015exploiting] Seaborn, M., & Dullien, T. (2015). Exploiting the DRAM rowhammer bug to gain kernel privileges. Black Hat, 15. `Link <https://docs.huihoo.com/blackhat/usa-2015/us-15-Seaborn-Exploiting-The-DRAM-Rowhammer-Bug-To-Gain-Kernel-Privileges.pdf>`__
