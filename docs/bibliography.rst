@@ -29,6 +29,7 @@ Conference
 .. [kim2014flipping] Kim, Y., Daly, R., Kim, J., Fallin, C., Lee, J. H., Lee, D., ... & Mutlu, O. (2014, June). Flipping bits in memory without accessing them: An experimental study of DRAM disturbance errors. In ACM SIGARCH Computer Architecture News (Vol. 42, No. 3, pp. 361-372). IEEE Press. `Link <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?tok=4cc56e&media=https%3A%2F%2Fpeople.inf.ethz.ch%2Fomutlu%2Fpub%2Fdram-row-hammer_isca14.pdf>`__
 .. [mutlu2017rowhammer] Mutlu, O. (2017, March). The RowHammer problem and other issues we may face as memory becomes denser. In Proceedings of the Conference on Design, Automation & Test in Europe (pp. 1116-1121). European Design and Automation Association. `Link <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?tok=daa41a&media=https%3A%2F%2Fpeople.inf.ethz.ch%2Fomutlu%2Fpub%2Frowhammer-and-other-memory-issues_date17.pdf>`__
 .. [mutlu2007memory] Mutlu, T. M. O. (2007). Memory performance attacks: Denial of memory service in multi-core systems. In USENIX security. `Link <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?tok=b3ffcc&media=https%3A%2F%2Fpeople.inf.ethz.ch%2Fomutlu%2Fpub%2Fmph_usenix_security07.pdf>`__
+.. [rixner2000memory] Rixner, S., Dally, W. J., Kapasi, U. J., Mattson, P., & Owens, J. D. (2000, June). Memory access scheduling. In ACM SIGARCH Computer Architecture News (Vol. 28, No. 2, pp. 128-138). ACM. `Link <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?media=p128-rixner.pdf>`__
 
 Other
 -----
