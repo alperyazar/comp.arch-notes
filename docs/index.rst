@@ -6,11 +6,6 @@
 comp.arch Notes
 ================
 
-.. warning::
-    **This project is in the early stage.** I am trying to organize source code
-    and learn tools like Sphinx, Read The Docs, etc. Be prepared for marginal
-    changes.
-
 .. image:: https://img.shields.io/github/watchers/alperyazar/comp.arch-notes.svg?style=social
     :alt: GitHub watchers
     :target: https://github.com/alperyazar/comp.arch-notes
