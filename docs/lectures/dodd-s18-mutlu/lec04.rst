@@ -4,7 +4,7 @@ Lecture 04 - Mysteries in Comp Arch and Basics
 ==============================================
 
 .. warning::
-    Incomplete. Stopped at 33:11
+    Incomplete. Stopped at 1:01:00
 
 
 Info
@@ -20,6 +20,10 @@ Reading
 * Chapter 3 in [patt2005introduction]_
 * [mutlu2007memory]_
 * [rixner2000memory]_
+* [mutlu2007stall]_ 
+* [mutlu2008parallelism]_
+* [muralidhara2011reducing]_
+* [liu2012raidr]_
 
 
 Reading Notes
@@ -74,8 +78,94 @@ Lecture Minutes
   requests before app B's only one request. Now app B which is not a memory
   intensive application has to wait all request of app A. If applications are
   equal, it may be fair.
-* **33:11** DRAM controller are vulnerable to denial of service (DoS) attacks.
-  
+* **33:11** DRAM controller is vulnerable to denial of service (DoS) attacks.
+* **35:10** An example case for the memory controller. DoS scenario is
+  illustrated.
+* **36:30** One potential solution is having multiple row buffers in DRAM but
+  it's cost is high. Also this doesn't solve the fairness problem.
+* **37:50** Another potential method for priority assignment is that cores may
+  indicate priorities of requests. How do you trust the core?
+* **39:30** At which layer this problem should be solved? Hardware looks more
+  meaningful than software layers.
+* **40:20** Optional readings for further: [mutlu2007stall]_, 
+  [mutlu2008parallelism]_, [muralidhara2011reducing]_
+* **40:40** Another mystery: **DRAM Refresh**
+* **41:20** For a modern datacenter, more than 60% of cost is for memory.
+* **42:00** A DRAM cell consists of a capacitor and an access transistor. Data
+  is stored in terms of charge. When wordline is activated, capacitor is
+  connected to the bitline. Transistor works as a switch.
+
+   .. figure:: images/l04-cells_and_row.png
+    :align: center
+
+    Cells and a row
+    *Taken directly from the lecture notes. © belongs to Prof. Mutlu*
+
+* **43:21** Capacitor charge leaks over time. Memory controller should refresh
+  each row periodically. Each row is activated (applied high voltage) every
+  N s. A typical N value is 64 ms. Each refresh consumes energy. A DRAM
+  rank/bank is unavailable during refresh. Long pause times during refresh
+  affects QoS and predictability badly. Refres rate limits DRAM capacity
+  scaling.
+* **45:20** Consider 1 ExaByte (2^60 bytes) DRAM. Assume row size of
+  8 KiloBytes (2^13 bytes). There are 2^47 rows. Consider refresh period as
+  64 ms.
+
+  .. todo::
+
+    Complete the exercise. It is also homework.
+
+* **47:30** From [liu2012raidr]_
+
+   .. figure:: images/l04-refresh_overhead_time.png
+    :align: center
+
+    *Taken directly from the lecture notes. © belongs to Prof. Mutlu*
+
+   .. figure:: images/l04-refresh_overhead_energy.png
+    :align: center
+
+    *Taken directly from the lecture notes. © belongs to Prof. Mutlu*
+
+  Today, max capacity of single DRAM chip is about 8 Gb. Notice that DRAM
+  module consists of several chips. Time spent in refreshing is lost time.
+  It is an overhead. What is refresh granularity? Not row by row but bank
+  by bank. In the past, whole RAM should be suspended for refresh affecting
+  QoS badly. What about increasing the number of cells in a single row, i.e.
+  decreasing number of rows for a fixed size? Does it help to this problem?
+  If you enlarge a row, you affect latency. Ideally, you want achieve a square
+  slice array. Also power is affected badly because even
+  if you need a small group
+  of slice in a row, you have to active whole row. This will lead power
+  inefficiency.
+
+  .. todo::
+
+    How latency is affected badly when a row becomes larger? I don't get it.
+    May row buffer wait slowest cell? Like "critical path" concept? All
+    bitlines should be stabilized before reading?
+
+  It is clear that there is a scalability problem.
+
+* **51:15** Do we have to refresh every row every 64 ms? What if all memory
+  isn't allocated? Today, this information from OS (page table) doesn't get
+  into the memory controller.
+
+* **53:00** It looks like very small portion of rows should be refreshed
+  at 64 ms. Refresh time of most rows is greater than 256 ms. Why? Because of
+  imperfections during manufacturing. This is *Manufacturing Process Variation*
+  As process' nanometer decreases, imperfections increases. This is also true
+  for processor speed variation between processors.
+
+* **55:30** **Cold boot attack** is mentioned as side note.
+
+* **56:30** Assume we know the retention time of each row exactly? How can we
+  use this information? At which layer?
+
+* **1:00:45** We are refreshing all rows at every 64 ms although very small
+  portion needs that much frequent refresh. Most of them can be refreshed at
+  256 ms. One proposal is **RAIDR**: Refresh ony weak rows more frequently.
+* **1:01:00** Read: [liu2012raidr]_
 
 Glossary
 --------
