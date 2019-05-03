@@ -3,10 +3,6 @@
 Lecture 04 - Mysteries in Comp Arch and Basics
 ==============================================
 
-.. warning::
-    Incomplete. Stopped at 1:01:00
-
-
 Info
 ----
 
@@ -24,7 +20,11 @@ Reading
 * [mutlu2008parallelism]_
 * [muralidhara2011reducing]_
 * [liu2012raidr]_
-
+* [mutlu2013memory]_
+* [chang2014improving]_
+* [bloom1970space]_
+* [zuravleff1997controller]_ (Couldn't notice during lecture, I added as
+  reference since it is stated on course page)
 
 Reading Notes
 ^^^^^^^^^^^^^
@@ -150,27 +150,49 @@ Lecture Minutes
 * **51:15** Do we have to refresh every row every 64 ms? What if all memory
   isn't allocated? Today, this information from OS (page table) doesn't get
   into the memory controller.
-
 * **53:00** It looks like very small portion of rows should be refreshed
   at 64 ms. Refresh time of most rows is greater than 256 ms. Why? Because of
   imperfections during manufacturing. This is *Manufacturing Process Variation*
   As process' nanometer decreases, imperfections increases. This is also true
   for processor speed variation between processors.
-
 * **55:30** **Cold boot attack** is mentioned as side note.
-
 * **56:30** Assume we know the retention time of each row exactly? How can we
   use this information? At which layer?
-
 * **1:00:45** We are refreshing all rows at every 64 ms although very small
   portion needs that much frequent refresh. Most of them can be refreshed at
   256 ms. One proposal is **RAIDR**: Refresh ony weak rows more frequently.
-* **1:01:00** Read: [liu2012raidr]_
+* **1:01:00** Read: [liu2012raidr]_ For RAIDR approach 1) you profile DRAM and
+  identify rows. 2) you should store row profile information in an efficient
+  and scalable way (Hint: Bloom Filters). For this case 1.25 KB storage is
+  sufficient for 32GB DRAM memory. 3) refresh accordingly.
+* **1:30:10** 74.6/ refresh reduction and some power reduction is achieved.
+* **1:05:20** Really interested? [mutlu2013memory]_, [chang2014improving]_
+* **1:05:40** Cooperation between multiple layers leads to more effective
+  system.
+* **1:08:08** Talk about :term:`bloom filters` started. *Approximate Set
+  Membership*. You can tolerate false positive (although a member is not in the
+  send, you find that it belongs to the set). You can not tolerate false
+  negative (element in the set but you think that it isn't). You want to
+  control false positive rate but don't want any false negative.
+* **1:16:00** Start of Bloom Filter example on board with chalk. Nice example,
+  worth watching.
+* **1:28:20** Original idea: [bloom1970space]_ It is a probabilistic data
+  structure that compactly represents set membership. Notice that solution to
+  RowHammer problem also includes a probabilistic solution.
 
 Glossary
 --------
 
 .. glossary::
+
+    bloom filters
+
+        Developed late 1960s. It is mentioned last ~20 minutes of the lecture.
+        See the notes.
+
+        .. todo::
+
+            I may write a separate page about Bloom filters.
 
     streaming application
         Application that reaches memory regions with high locality. For example

@@ -19,6 +19,7 @@ Journal
 
 .. [hamming1950error] Hamming, R. W. (1950). Error detecting and error correcting codes. The Bell system technical journal, 29(2), 147-160. `Link <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?media=bstj29-2-147.pdf>`__
 .. [lamport1982byzantine] Lamport, L., Shostak, R., & Pease, M. (1982). The Byzantine generals problem. ACM Transactions on Programming Languages and Systems (TOPLAS), 4(3), 382-401. `Link <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?media=p382-lamport.pdf>`__
+.. [bloom1970space] Bloom, B. H. (1970). Space/time trade-offs in hash coding with allowable errors. Communications of the ACM, 13(7), 422-426. `Link <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?media=p422-bloom.pdf>`__
 
 Conference
 ----------
@@ -33,6 +34,12 @@ Conference
 .. [mutlu2007stall] Mutlu, O., & Moscibroda, T. (2007, December). Stall-time fair memory access scheduling for chip multiprocessors. In Proceedings of the 40th Annual IEEE/ACM international Symposium on Microarchitecture (pp. 146-160). IEEE Computer Society. `Link <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?tok=0170b2&media=https%3A%2F%2Fusers.ece.cmu.edu%2F~omutlu%2Fpub%2Fstfm_micro07-summary.pdf>`__
 .. [mutlu2008parallelism] Mutlu, O., & Moscibroda, T. (2008, June). Parallelism-aware batch scheduling: Enhancing both performance and fairness of shared DRAM systems. In ACM SIGARCH Computer Architecture News (Vol. 36, No. 3, pp. 63-74). IEEE Computer Society. `Link <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?tok=72663d&media=https%3A%2F%2Fpeople.inf.ethz.ch%2Fomutlu%2Fpub%2Fparbs_isca08.pdf>`__
 .. [muralidhara2011reducing] Muralidhara, S. P., Subramanian, L., Mutlu, O., Kandemir, M., & Moscibroda, T. (2011, December). Reducing memory interference in multicore systems via application-aware memory channel partitioning. In Proceedings of the 44th Annual IEEE/ACM International Symposium on Microarchitecture (pp. 374-385). ACM. `Link <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?tok=83f0b1&media=https%3A%2F%2Fpeople.inf.ethz.ch%2Fomutlu%2Fpub%2Fmemory-channel-partitioning-micro11.pdf>`__
+.. [chang2014improving] Chang, K. K. W., Lee, D., Chishti, Z., Alameldeen, A. R., Wilkerson, C., Kim, Y., & Mutlu, O. (2014, February). Improving DRAM performance by parallelizing refreshes with accesses. In 2014 IEEE 20th International Symposium on High Performance Computer Architecture (HPCA) (pp. 356-367). IEEE. `Link <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?tok=23913b&media=https%3A%2F%2Fusers.ece.cmu.edu%2F~omutlu%2Fpub%2Fdram-access-refresh-parallelization_hpca14.pdf>`__
+
+Patent
+------
+
+.. [zuravleff1997controller] Zuravleff, W. K., & Robinson, T. (1997). U.S. Patent No. 5,630,096. Washington, DC: U.S. Patent and Trademark Office. `Link <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?media=us5630096.pdf>`__
 
 Other
 -----
@@ -43,3 +50,4 @@ Other
 .. [horn2018reading] Horn, J. (2018). Reading privileged memory with a side-channel. Project Zero, 3. `Link <https://googleprojectzero.blogspot.com/2018/01/reading-privileged-memory-with-side.html>`__
 .. [seaborn2015exploiting] Seaborn, M., & Dullien, T. (2015). Exploiting the DRAM rowhammer bug to gain kernel privileges. Black Hat, 15. `Link <https://docs.huihoo.com/blackhat/usa-2015/us-15-Seaborn-Exploiting-The-DRAM-Rowhammer-Bug-To-Gain-Kernel-Privileges.pdf>`__
 .. [liu2012raidr] Liu, J., Jaiyen, B., Veras, R., & Mutlu, O. (2012, June). RAIDR: Retention-aware intelligent DRAM refresh. In ACM SIGARCH Computer Architecture News (Vol. 40, No. 3, pp. 1-12). IEEE Computer Society. `Link <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?tok=18c516&media=https%3A%2F%2Fpeople.inf.ethz.ch%2Fomutlu%2Fpub%2Fraidr-dram-refresh_isca12.pdf>`__
+.. [mutlu2013memory] Mutlu, O. (2013, May). Memory scaling: A systems architecture perspective. In 2013 5th IEEE International Memory Workshop (pp. 21-25). IEEE. `Link <https://safari.ethz.ch/digitaltechnik/spring2018/lib/exe/fetch.php?tok=0ccaab&media=https%3A%2F%2Fpeople.inf.ethz.ch%2Fomutlu%2Fpub%2Fmemory-scaling_imw13.pdf>`__
